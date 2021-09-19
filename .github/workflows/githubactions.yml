@@ -23,5 +23,5 @@ jobs:
           coverage run -m pytest
       - name: Generate coverage report
         run: |
-          coverage report
+          coverage report -m
           
